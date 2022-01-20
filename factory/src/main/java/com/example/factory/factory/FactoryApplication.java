@@ -10,6 +10,12 @@ public class FactoryApplication {
 		printDepartment(factory, "admin");
 		printDepartment(factory, "hr");
 		printDepartment(factory, "sales");
+
+		/**
+		 * Department contact: admin@example.com, class name: com.example.factory.factory.model.Administration
+		 * Department contact: hr@example.com, class name: com.example.factory.factory.model.HumanResource
+		 * Department contact: sales@example.com, class name: com.example.factory.factory.model.Sales
+		 */
 	}
 
 	private static void printDepartment(DepartmentFactory factory, String departmentName) {

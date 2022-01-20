@@ -25,6 +25,11 @@ public class DiApplication {
 		injector = new SmsServiceInjector();
 		app = injector.getConsumer();
 		app.processMessages(message, phone);
+
+		/**
+		 * Email sent to message@example.com with Message: Hello World!
+		 * SMS sent to 9876543210 with Message: Hello World!
+		 */
 	}
 
 }

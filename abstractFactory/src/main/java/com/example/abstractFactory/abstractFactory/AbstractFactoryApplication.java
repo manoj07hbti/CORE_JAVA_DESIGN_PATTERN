@@ -15,6 +15,14 @@ public class AbstractFactoryApplication {
 
         System.out.println("Section Management: " + getInfo("section", "management"));
         System.out.println("Section Technology: " + getInfo("section", "technology"));
+
+        /**
+         * Department Admin: admin@example.com
+         * Department Hr: hr@example.com
+         * Department Sales: sales@example.com
+         * Section Management: Management Section
+         * Section Technology: Technology Section
+         */
     }
 
     private static String getInfo(String type, String subType) {

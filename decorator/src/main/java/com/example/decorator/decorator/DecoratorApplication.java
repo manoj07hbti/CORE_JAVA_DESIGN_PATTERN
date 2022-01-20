@@ -18,6 +18,13 @@ public class DecoratorApplication {
 		System.out.println("Indian Sales Contact: " + indiaSales.getEmail());
 		System.out.println("Global HR Contact: " + hr.getEmail());
 		System.out.println("Indian HR Contact: " + indiaHr.getEmail());
+
+		/**
+		 * Global Sales Contact: sales@example.com
+		 * Indian Sales Contact: india.sales@example.com
+		 * Global HR Contact: hr@example.com
+		 * Indian HR Contact: india.hr@example.com
+		 */
 	}
 
 }

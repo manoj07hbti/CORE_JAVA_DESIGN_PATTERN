@@ -17,6 +17,12 @@ public class StrategyApplication {
 
 		Context multiplicationContext = new Context(new MultiplicationStrategy());
 		System.out.println("Multiplication Context: 10 * 2 = " + multiplicationContext.execute(10, 2));
+
+		/**
+		 * Addition Context: 10 + 2 = 12
+		 * Substract Context: 10 - 2 = 8
+		 * Multiplication Context: 10 * 2 = 20
+		 */
 	}
 
 }

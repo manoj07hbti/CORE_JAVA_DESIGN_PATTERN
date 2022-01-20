@@ -13,6 +13,11 @@ public class AdaptorApplication {
 
 		Payment payment2 = new UsdPayment(200);
 		printInfo(payment2);
+
+		/**
+		 * Payment is converted from USD 100.00 to INR 7500.00/-
+		 * Payment is converted from USD 200.00 to INR 15000.00/-
+		 */
 	}
 
 	private static void printInfo(Payment payment) {

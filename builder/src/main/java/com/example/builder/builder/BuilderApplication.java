@@ -24,6 +24,11 @@ public class BuilderApplication {
 				.setDateOfJoining(LocalDate.of(2010, 10, 01))
 				.build();
 		System.out.println("Jane Doe: " + janeDoe.toString());
+
+		/**
+		 * John Doe: Employee{id=101, name='John Doe', band='Jr. Associate', dateOfJoining=2000-01-01}
+		 * Jane Doe: Employee{id=102, name='Jane Doe', band='Sr. Associate', dateOfJoining=2010-10-01}
+		 */
 	}
 
 }
